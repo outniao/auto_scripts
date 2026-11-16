@@ -18,8 +18,8 @@ name: ♻️ Woiden Auto Renew woi1
 
 on:
   schedule:
-    - cron: '10 15 * * *'
-    - cron: '10 16 * * *'
+    - cron: '10 18 * * *'
+    - cron: '10 19 * * *'
   workflow_dispatch:
 
 permissions:
