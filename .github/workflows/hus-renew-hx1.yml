@@ -33,7 +33,7 @@ name: 🔄 Hus Auto Renew hx1
 
 on:
   schedule:
-    - cron: '07 2 * * *'  #每天UTC 00:07（第①份，错开避免并发）
+    - cron: '07 3 * * *'  #每天UTC 00:07（第①份，错开避免并发）
   workflow_dispatch:
 
 permissions:
